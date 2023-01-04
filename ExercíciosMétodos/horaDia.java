@@ -10,6 +10,7 @@ public void setHora(int hora){
 }
 public int checarHora(int hora){
     System.out.println("Informe a hora do dia: ");
+    int hora = scanner.nextInt();
     if (hora >= 6 && hora <= 13){
       System.out.println("Bom dia!");
       
